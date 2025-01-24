@@ -24,11 +24,6 @@ def handle_document(message):
         bot.send_message(message.chat.id, 'Пожалуйста, загрузите файл Excel формата .xlsx')
 
 
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id, 'Привет')
-
-
 @bot.message_handler(commands=['command1'])
 def check_homework(message):
     wb = openpyxl.load_workbook('Отчет по студентам.xlsx')
