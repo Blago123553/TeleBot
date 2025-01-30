@@ -1,6 +1,5 @@
 import telebot
 import openpyxl
-import os
 
 bot = telebot.TeleBot('7351727427:AAE-xAhU7CIc453vIuVM0kUMuX0FUJO4hKc')
 
